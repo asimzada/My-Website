@@ -5,38 +5,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asim Mystic</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Asim Mystic</div>
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Tutorials</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section class="hero">
-            <h1>Welcome to Asim Mystic</h1>
-            <p>Your portal for tech, blogs, and tutorials!</p>
-        </section>
+<!-- Header -->
+<header>
+    <nav>
+        <div class="logo">AsimMystic</div>
+        <ul class="menu">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">&#9776;</div>
+        <div class="theme-toggle">🌙</div>
+    </nav>
+</header>
 
-        <section class="content">
-            <h2>Latest Posts</h2>
-            <div class="cards">
-                <div class="card">Post 1: Introduction to Technology</div>
-                <div class="card">Post 2: Science Updates</div>
-                <div class="card">Post 3: Affiliate Marketing Tips</div>
-            </div>
-        </section>
-    </main>
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content" data-aos="fade-up">
+        <h1>Welcome to Asim Mystic</h1>
+        <p>Explore Politics, Science, Technology, Tutorials, and More!</p>
+        <a href="#features" class="btn">Discover More</a>
+        <div class="hero-newsletter">
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </div>
+    </div>
+    <img src="images/hero-bg.png" alt="Hero Background" class="hero-img">
+</section>
 
-    <footer>
-        <p>&copy; 2025 Asim Mystic. All rights reserved.</p>
-    </footer>
+<!-- Features Section -->
+<section id="features" class="features">
+    <div class="feature-card" data-aos="fade-up">
+        <img src="images/feature-politics.png" alt="Politics Feature">
+        <h2>Politics</h2>
+        <p>Stay updated with global political news.</p>
+    </div>
+    <div class="feature-card" data-aos="fade-up">
+        <img src="images/feature-science.png" alt="Science Feature">
+        <h2>Science</h2>
+        <p>Explore the latest in science and research.</p>
+    </div>
+    <div class="feature-card" data-aos="fade-up">
+        <img src="images/feature-technology.png" alt="Technology Feature">
+        <h2>Technology</h2>
+        <p>Discover cutting-edge technology trends.</p>
+    </div>
+    <div class="feature-card" data-aos="fade-up">
+        <img src="images/feature-tutorial.png" alt="Tutorial Feature">
+        <h2>Tutorials</h2>
+        <p>Learn new skills with step-by-step tutorials.</p>
+    </div>
+    <div class="feature-card" data-aos="fade-up">
+        <img src="images/feature-stats.png" alt="Stats Feature">
+        <h2>Quick Stats</h2>
+        <p>Visualize data with interactive charts.</p>
+    </div>
+    <div class="feature-card" data-aos="fade-up">
+        <img src="images/feature-graph.png" alt="Graph Feature">
+        <h2>Infographics</h2>
+        <p>Creative graphical representations of data.</p>
+    </div>
+</section>
+
+<!-- Blog Section -->
+<section id="blog" class="blog">
+    <h2 data-aos="fade-up">Latest Blog Posts</h2>
+    <div class="blog-grid">
+        <div class="blog-card" data-aos="fade-up">
+            <img src="images/blog-politics.jpg" alt="Politics Blog">
+            <h3>Political Insights</h3>
+            <p>Breaking news and analysis from around the globe.</p>
+        </div>
+        <div class="blog-card" data-aos="fade-up">
+            <img src="images/blog-science.jpg" alt="Science Blog">
+            <h3>Scientific Discoveries</h3>
+            <p>Latest research and discoveries explained simply.</p>
+        </div>
+        <div class="blog-card" data-aos="fade-up">
+            <img src="images/blog-technology.jpg" alt="Technology Blog">
+            <h3>Tech Innovations</h3>
+            <p>Stay ahead with emerging tech trends and reviews.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio">
+    <h2 data-aos="fade-up">Portfolio</h2>
+    <div class="portfolio-grid">
+        <div class="portfolio-card" data-aos="fade-up">
+            <img src="images/portfolio-1.jpg" alt="Portfolio Project 1">
+            <div class="overlay">Project 1</div>
+        </div>
+        <div class="portfolio-card" data-aos="fade-up">
+            <img src="images/portfolio-2.jpg" alt="Portfolio Project 2">
+            <div class="overlay">Project 2</div>
+        </div>
+        <div class="portfolio-card" data-aos="fade-up">
+            <img src="images/portfolio-3.jpg" alt="Portfolio Project 3">
+            <div class="overlay">Project 3</div>
+        </div>
+    </div>
+</section>
+
+<!-- Multimedia / Parallax Section -->
+<section class="multimedia" data-aos="fade-up">
+    <img src="images/multimedia-bg.jpg" alt="Multimedia Background" class="multimedia-img">
+    <h2>Immersive Multimedia Experience</h2>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+    <h2 data-aos="fade-up">About Me</h2>
+    <p data-aos="fade-up">I create modern websites with professional UI and latest technologies.</p>
+</section>
+
+<!-- Footer -->
+<footer id="contact">
+    <div class="social-links">
+        <a href="#"><img src="images/icon-instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="images/icon-tiktok.png" alt="TikTok"></a>
+        <a href="#"><img src="images/icon-facebook.png" alt="Facebook"></a>
+    </div>
+    <div class="contact-form">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button>Send Message</button>
+    </div>
+    <p>© 2025 Asim Mystic. All rights reserved.</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
